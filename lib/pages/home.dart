@@ -18,7 +18,7 @@ class _MyWidgetState extends State<Home> {
           children: <Widget>[
             TextButton.icon(
                 onPressed: () {
-                  Navigator.pushNamed(context, '/location');
+                  Navigator.pushNamed(context, '/');
                 },
                 icon: Icon(Icons.edit_location),
                 label: Text('Edit Location')),
